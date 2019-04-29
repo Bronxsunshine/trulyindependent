@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro');
+
+html,body {
+  height:100%;
+  width: 100%;
+  margin: auto;
+}
+/* think about some different text alignment here */
+h1 {
+  text-align: center;
+}
+/* remember they change for all three pages of p */
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* intentionally left black here for any last minute background images */
+.indexbody {
+
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%; 
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+#line1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #EF2871;
+  text-align: center;
+  font-size: 135%;
+  font-weight: bold;
+  margin: -10% -10%;
+}
+
+#line2 {
+  font-family: 'Libre Baskerville', serif; 
+  color: #492133;
+  margin: -10% -10%;
+}
+
+#headpic {
+  padding: -10px;
+  margin: -8% -8%;
+}
+
+
+/* main nav bar doesn't have a specific name */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 5px solid #EF2871;
+  border-bottom:5px solid #EF2871;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: -30px;
+  margin: -3 -3;
+}
+
+.links {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color:#492133;
+  padding: 1%;
+}
+
+#brandname {
+  font-family: 'Libre Baskerville', serif;
+  color: #492133;
+  text-align: center;
+  margin:1% auto;
+  font-size: 355%;
+  font-weight: bold
+}
+
+.secondpart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px;
+  font-family: 'Libre Baskerville', serif;
+  color: #492133;
+  font-size: 135%;
+}
+
+#1box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+}
+#1pic {
+  display: inline-block
+}
+
+#1word {
+  font-weight: bold;
+}
+
+#2box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+}
+#2pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px;
+  
+}
+
+#2word {
+  font-family: 'Libre Baskerville', serif;
+  color: #492133;
+  text-align: center;
+  margin:1% auto;
+  font-size: 135%;
+  font-weight: bold
+}
+
+#3box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+}
+#3pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#3word {
+  font-family: 'Libre Baskerville', serif;
+  color: #492133;
+  text-align: center;
+  margin:1% auto;
+  font-size: 135%;
+  font-weight: bold
+}
+ 
+/* main footer does not have a class name */ 
+footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  color: #492133;
+  text-align: center;
+  bottom: 0;
+  
+ }
+ 
+.contactbody {
+  font-family: 'Source Sans Pro', sans-serif; 
+  color: black;
+  background-color: white;
+}
+
+.navbarcontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 5px solid #EF2871;
+  border-bottom:5px solid #EF2871;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: -30px;
+  margin: -3 -3;
+}
+
+.linkscontact {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color:#492133;
+  padding: 1%;
+}
+
+/* contact page */
+.handles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom:5px solid #EF2871;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: -30px;
+  margin: -3 -3;
+}
+
+/* resource page*/
+.resourcebody {
+  font-family: 'Source Sans Pro', sans-serif; 
+  
+}
+
+.navbarresources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 5px solid #EF2871;
+  border-bottom:5px solid #EF2871;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: -30px;
+  margin: -3 -3;
+}
+
+.linksresources {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  color:#492133;
+  padding: 1%;
+  margin: 1 1;
+}
+
+#title1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #492133;
+  text-align: center;
+  margin:1% auto;
+  font-size: 105%;
+  font-weight: bold
+}
+
+.subresourcemain1 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: 10px;
+  margin: auto;
+  
+}  
+
+#writing1 {
+  width: 50%;
+  padding: 30px;
+}
+
+#subtitle1 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin:1% auto;
+  font-size: 105%;
+  color: #EF2871;
+}
+
+.subresourcemain2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: 10px;
+  margin: auto;
+  
+}  
+
+#writing2 {
+  width: 50%;
+  padding: 30px;
+}
+
+#subtitle2 {
+  font-family: 'Libre Baskerville', serif;
+ color: #EF2871;
+  text-align: center;
+  margin:1% auto;
+  font-size: 105%;
+  font-weight: bold
+}
+
+.subresourcemain3 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  padding: 10px;
+  margin: auto;
+  
+}  
+
+#writing3 {
+  width: 50%;
+  padding: 30px;
+}
+
+#subtitle3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #EF2871;
+  text-align: center;
+  margin:1% auto;
+  font-size: 105%;
+  font-weight: bold
+}
+
+
+.footerresources {
+  border-top:5px solid #EF2871;
+}
